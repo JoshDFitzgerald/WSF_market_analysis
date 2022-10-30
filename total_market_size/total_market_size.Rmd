@@ -16,6 +16,8 @@ df <- read.xlsx("../Data/All Incoming Students Fall 2004 - Spring 2021.xlsx", sh
 
 
 ```{r}
-df
+df 
+
+df %>% summarize(abroad = n())
 ```
 
