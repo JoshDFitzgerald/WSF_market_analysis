@@ -1,0 +1,21 @@
+---
+title: "total_market_size"
+author: "DLab"
+date: "2022-10-30"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(ggplot2)
+library(xlsx)
+
+df <- read.xlsx("../Data/All Incoming Students Fall 2004 - Spring 2021.xlsx", sheetName = "Query1")
+
+```
+
+
+```{r}
+df
+```
+
